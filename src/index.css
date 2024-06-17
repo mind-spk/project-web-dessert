@@ -13,3 +13,13 @@
 .bg-image-home {
   background-image: url('./assets/imgs/delicious-pancakes-served-on-tray-w6dz4y02rei6b1wy.webp');
 }
+
+
+
+.bg-login {
+  background-image: url('./assets/imgs/photo-1558961363-fa8fdf82db35.avif');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}

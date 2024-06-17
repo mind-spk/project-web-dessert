@@ -9,13 +9,11 @@ import Menu from './pages/Menu';
 const App = () => {
     return (
         <div>
-            <Navbar />
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/login" element={<Login />} />
                 <Route path="/menu" element={<Menu />} />
             </Routes>
-            <Footer />
         </div>
     );
 };
