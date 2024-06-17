@@ -8,3 +8,8 @@
   padding: 0px;
   box-sizing: border-box;
 }
+
+
+.bg-image-home {
+  background-image: url('./assets/imgs/delicious-pancakes-served-on-tray-w6dz4y02rei6b1wy.webp');
+}
