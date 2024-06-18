@@ -11,13 +11,27 @@
 
 
 .bg-image-home {
-  background-image: url('./assets/imgs/delicious-pancakes-served-on-tray-w6dz4y02rei6b1wy.webp');
+  background-image: url('./assets/imgs/DSC_0060_1024x1024.webp');
+  background-size:  100% 138%;
+  background-position: center;
+  background-repeat: no-repeat;
+ 
 }
 
 
 
 .bg-login {
   background-image: url('./assets/imgs/photo-1558961363-fa8fdf82db35.avif');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+
+.bg-home2 {
+  /* background-image: url('./assets/imgs/photo-1558961363-fa8fdf82db35.avif'); */
+  background-color: blue;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
