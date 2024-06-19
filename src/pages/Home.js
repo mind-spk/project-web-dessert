@@ -14,9 +14,9 @@ const Home = () => {
   };
   return (
     <div className=" flex w-full">
-      <div className=" w-full">
-        <div className="  h-screen bg-image-home  flex flex-col items-center justify-end  ">
-          <div className=" flex gap-8 text-[64px]  text-white mb-[20px]">
+      <div className=" w-full ">
+        <div className="  h-screen bg-image-home  flex flex-col items-start justify-end  ">
+          <div className=" flex  gap-6 text-[40px]  text-white mb-[20px] ml-[40px]">
             <PiWhatsappLogoLight />
             <RxInstagramLogo />
             <CiTwitter />
@@ -24,17 +24,16 @@ const Home = () => {
         </div>
       </div>
 
-      <div className=" min-w-[789px] flex  items-center  bg-cyan-950 relative ">
-        <div className=" text-[64px] text-[#F0E3A1] absolute right-[530px] ">
-          <h1 className="w-[300px] font-bold text-[70px] ">PANCAKES LOVER</h1>
+      <div className=" min-w-[789px] flex  items-center bg-gradient-to-b from-[#1A3443] via-[#0A2431] via-100% relative ">
+        <div className=" text-[64px] text-[#F0E3A1] absolute right-[380px] ">
+          <h1 className="w-[300px] font-bold font-judson text-[70px] ">PANCAKES LOVER</h1>
           {isOpen ? (
-            <p className=" text-[20px]">
-              This is the additional text that is displayed when the button is
-              clicked.
+            <p className="font-judson w-[450px] text-[20px]">
+             dipisci elit. Aliquam fringilla velit sed urna faucibus, quis laoreet arcu placerat. Ut in lacus in urna  laoreet sollicitudin pulvinar.
             </p>
           ) : (
-            <p className="text-[20px]">
-              This is the initial text that is displayed.
+            <p className="font-judson w-[450px] text-[20px]">
+              Lorem ipsum dolor sit amet, consectetura dipisci elit. Aliquam fringilla velit sed urna faucibus, quis laoreet arcu placerat. Ut in lacus in urna  laoreet sollicitudin pulvinar.
             </p>
           )}
           <button
