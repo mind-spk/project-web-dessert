@@ -1,11 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Judson:ital,wght@0,400;0,700;1,400&display=swap');
-
 @import 'bootstrap/dist/css/bootstrap.min.css';
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 
 
 
@@ -15,15 +13,14 @@
   box-sizing: border-box;
 }
 
-
+/* 
 .bg-image-home {
   background-image: url('./assets/imgs/88.jpg');
   background-size:  100% 100%;
   background-position: center;
   background-repeat: no-repeat;
  
-}
-
+} */
 
 
 .bg-login {

@@ -12,13 +12,98 @@ import Carousel from "react-bootstrap/Carousel";
 
 const Menu = () => {
   return (
-    <div className=" bg-white  mt-5   w-[1690px] h-[1000px]">
+    <div className="h-screen bg-black ">
       <Navbar />
-      <div className=" text-[#F0E3A1] flex justify-center mt-2 ">
-        <h1 className=" text-[20px] ">OUR SPECIAL COFFEE</h1>
-      </div>
-      <Carousel  data-bs-theme="blue" className=" py-[50px] ">
-        <Carousel.Item className="  min-h-auto">
+
+      <Carousel className=" py-[50px] ">
+        <Carousel.Item >
+          <Container className=" mt-[150px]">
+            <Row>
+              <Col>
+                {" "}
+                <Card style={{ width: "16rem" }} className=" rounded-3xl">
+                  <Card.Img
+                    variant="top"
+                    src={imageOne}
+                    className="w-[260px] h-[260px] object-cover  rounded-3xl p-2"
+                  />
+                  <Card.Body>
+                    <Card.Title>Lungo Coffee</Card.Title>
+                    <Card.Text>an aspesso coffee drink</Card.Text>
+                    <div className=" flex justify-around mt-4">
+                      <Card.Text>RS.199</Card.Text>
+                      <button className=" bg-stone-800 text-white p-2 rounded-xl ">
+                        Order Now
+                      </button>
+                    </div>
+                  </Card.Body>
+                </Card>
+              </Col>
+              <Col>
+                {" "}
+                <Card style={{ width: "16rem" }} className=" rounded-3xl">
+                  <Card.Img
+                    variant="top"
+                    src={imageTwo}
+                    className="w-[260px] h-[260px] object-cover  rounded-3xl p-2"
+                  />
+                  <Card.Body>
+                    <Card.Title>Lungo Coffee</Card.Title>
+                    <Card.Text>an aspesso coffee drink</Card.Text>
+                    <div className=" flex justify-around mt-4">
+                      <Card.Text>RS.199</Card.Text>
+                      <button className=" bg-stone-800 text-white p-2 rounded-xl ">
+                        Order Now
+                      </button>
+                    </div>
+                  </Card.Body>
+                </Card>
+              </Col>
+              <Col>
+                {" "}
+                <Card style={{ width: "16rem" }} className=" rounded-3xl">
+                  <Card.Img
+                    variant="top"
+                    src={imageTree}
+                    className="w-[260px] h-[260px] object-cover  rounded-3xl p-2"
+                  />
+                  <Card.Body>
+                    <Card.Title>Lungo Coffee</Card.Title>
+                    <Card.Text>an aspesso coffee drink</Card.Text>
+                    <div className=" flex justify-around mt-4">
+                      <Card.Text>RS.199</Card.Text>
+                      <button className=" bg-stone-800 text-white p-2 rounded-xl ">
+                        Order Now
+                      </button>
+                    </div>
+                  </Card.Body>
+                </Card>
+              </Col>
+              <Col>
+                {" "}
+                <Card style={{ width: "16rem" }} className=" rounded-3xl">
+                  <Card.Img
+                    variant="top"
+                    src={imageFour}
+                    className="w-[260px] h-[260px] object-cover  rounded-3xl p-2"
+                  />
+                  <Card.Body>
+                    <Card.Title>Lungo Coffee</Card.Title>
+                    <Card.Text>an aspesso coffee drink</Card.Text>
+                    <div className=" flex justify-around mt-4">
+                      <Card.Text>RS.199</Card.Text>
+                      <button className=" bg-stone-800 text-white p-2 rounded-xl ">
+                        Order Now
+                      </button>
+                    </div>
+                  </Card.Body>
+                </Card>
+              </Col>
+            </Row>
+          </Container>
+        </Carousel.Item>
+        
+        <Carousel.Item>
           <Container className="mt-5">
             <Row>
               <Col>
@@ -34,7 +119,9 @@ const Menu = () => {
                     <Card.Text>an aspesso coffee drink</Card.Text>
                     <div className=" flex justify-around mt-4">
                       <Card.Text>RS.199</Card.Text>
-                    <button className=" bg-stone-800 text-white p-2 rounded-xl ">Order Now</button>
+                      <button className=" bg-stone-800 text-white p-2 rounded-xl ">
+                        Order Now
+                      </button>
                     </div>
                   </Card.Body>
                 </Card>
@@ -48,11 +135,13 @@ const Menu = () => {
                     className="w-[260px] h-[260px] object-cover  rounded-3xl p-2"
                   />
                   <Card.Body>
-                  <Card.Title>Lungo Coffee</Card.Title>
+                    <Card.Title>Lungo Coffee</Card.Title>
                     <Card.Text>an aspesso coffee drink</Card.Text>
                     <div className=" flex justify-around mt-4">
                       <Card.Text>RS.199</Card.Text>
-                    <button className=" bg-stone-800 text-white p-2 rounded-xl ">Order Now</button>
+                      <button className=" bg-stone-800 text-white p-2 rounded-xl ">
+                        Order Now
+                      </button>
                     </div>
                   </Card.Body>
                 </Card>
@@ -66,11 +155,13 @@ const Menu = () => {
                     className="w-[260px] h-[260px] object-cover  rounded-3xl p-2"
                   />
                   <Card.Body>
-                  <Card.Title>Lungo Coffee</Card.Title>
+                    <Card.Title>Lungo Coffee</Card.Title>
                     <Card.Text>an aspesso coffee drink</Card.Text>
                     <div className=" flex justify-around mt-4">
                       <Card.Text>RS.199</Card.Text>
-                    <button className=" bg-stone-800 text-white p-2 rounded-xl ">Order Now</button>
+                      <button className=" bg-stone-800 text-white p-2 rounded-xl ">
+                        Order Now
+                      </button>
                     </div>
                   </Card.Body>
                 </Card>
@@ -84,89 +175,13 @@ const Menu = () => {
                     className="w-[260px] h-[260px] object-cover  rounded-3xl p-2"
                   />
                   <Card.Body>
-                  <Card.Title>Lungo Coffee</Card.Title>
+                    <Card.Title>Lungo Coffee</Card.Title>
                     <Card.Text>an aspesso coffee drink</Card.Text>
                     <div className=" flex justify-around mt-4">
                       <Card.Text>RS.199</Card.Text>
-                    <button className=" bg-stone-800 text-white p-2 rounded-xl ">Order Now</button>
-                    </div>
-                  </Card.Body>
-                </Card>
-              </Col>
-            </Row>
-          </Container>
-        </Carousel.Item>
-        <Carousel.Item>
-          <Container className="mt-5">
-            <Row>
-              <Col>
-                {" "}
-                <Card style={{ width: "16rem" }} className=" rounded-3xl">
-                  <Card.Img
-                    variant="top"
-                    src={imageOne}
-                    className="w-[260px] h-[260px] object-cover  rounded-3xl p-2"
-                  />
-                  <Card.Body>
-                  <Card.Title>Lungo Coffee</Card.Title>
-                    <Card.Text>an aspesso coffee drink</Card.Text>
-                    <div className=" flex justify-around mt-4">
-                      <Card.Text>RS.199</Card.Text>
-                    <button className=" bg-stone-800 text-white p-2 rounded-xl ">Order Now</button>
-                    </div>
-                  </Card.Body>
-                </Card>
-              </Col>
-              <Col>
-                {" "}
-                <Card style={{ width: "16rem" }} className=" rounded-3xl">
-                  <Card.Img
-                    variant="top"
-                    src={imageTwo}
-                    className="w-[260px] h-[260px] object-cover  rounded-3xl p-2"
-                  />
-                  <Card.Body>
-                  <Card.Title>Lungo Coffee</Card.Title>
-                    <Card.Text>an aspesso coffee drink</Card.Text>
-                    <div className=" flex justify-around mt-4">
-                      <Card.Text>RS.199</Card.Text>
-                    <button className=" bg-stone-800 text-white p-2 rounded-xl ">Order Now</button>
-                    </div>
-                  </Card.Body>
-                </Card>
-              </Col>
-              <Col>
-                {" "}
-                <Card style={{ width: "16rem" }} className=" rounded-3xl">
-                  <Card.Img
-                    variant="top"
-                    src={imageTree}
-                    className="w-[260px] h-[260px] object-cover  rounded-3xl p-2"
-                  />
-                  <Card.Body>
-                  <Card.Title>Lungo Coffee</Card.Title>
-                    <Card.Text>an aspesso coffee drink</Card.Text>
-                    <div className=" flex justify-around mt-4">
-                      <Card.Text>RS.199</Card.Text>
-                    <button className=" bg-stone-800 text-white p-2 rounded-xl ">Order Now</button>
-                    </div>
-                  </Card.Body>
-                </Card>
-              </Col>
-              <Col>
-                {" "}
-                <Card style={{ width: "16rem" }} className=" rounded-3xl">
-                  <Card.Img
-                    variant="top"
-                    src={imageFour}
-                    className="w-[260px] h-[260px] object-cover  rounded-3xl p-2"
-                  />
-                  <Card.Body>
-                  <Card.Title>Lungo Coffee</Card.Title>
-                    <Card.Text>an aspesso coffee drink</Card.Text>
-                    <div className=" flex justify-around mt-4">
-                      <Card.Text>RS.199</Card.Text>
-                    <button className=" bg-stone-800 text-white p-2 rounded-xl ">Order Now</button>
+                      <button className=" bg-stone-800 text-white p-2 rounded-xl ">
+                        Order Now
+                      </button>
                     </div>
                   </Card.Body>
                 </Card>
@@ -175,7 +190,6 @@ const Menu = () => {
           </Container>
         </Carousel.Item>
       </Carousel>
-     
     </div>
   );
 };
