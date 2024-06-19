@@ -4,6 +4,10 @@ import { FaFacebook } from "react-icons/fa";
 import { BiLogoGmail } from "react-icons/bi";
 import { Link } from "react-router-dom";
 
+
+
+
+
 function Login() {
   const { register, handleSubmit, formState: { errors } } = useForm();
 
@@ -13,6 +17,7 @@ function Login() {
 
   return (
     <div className="flex bg-login w-full h-screen py-5 pl-[150px]">
+      
       <div className="flex items-center min-w-10 p-[10px] ml-[150px]">
         <div>
           <form

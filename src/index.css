@@ -16,8 +16,8 @@
 
 
 .bg-image-home {
-  background-image: url('./assets/imgs/DSC_0060_1024x1024.webp');
-  background-size:  100% 138%;
+  background-image: url('./assets/imgs/88.jpg');
+  background-size:  100% 100%;
   background-position: center;
   background-repeat: no-repeat;
  
@@ -33,12 +33,6 @@
 
 }
 
-
-.bg-home2 {
-  /* background-image: url('./assets/imgs/photo-1558961363-fa8fdf82db35.avif'); */
-  background-color: blue;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-
+.blurred-background {
+  backdrop-filter: blur(1px); 
 }
