@@ -3,6 +3,7 @@ import { useForm } from "react-hook-form";
 import { FaFacebook } from "react-icons/fa";
 import { BiLogoGmail } from "react-icons/bi";
 import { Link } from "react-router-dom";
+import Navbar from "../components/Navbar";
 
 
 
@@ -17,7 +18,7 @@ function Login() {
 
   return (
     <div className="flex bg-login w-full h-screen py-5 pl-[150px]">
-      
+      <Navbar/>
       <div className="flex items-center min-w-10 p-[10px] ml-[150px]">
         <div>
           <form
