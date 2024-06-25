@@ -5,6 +5,7 @@ module.exports = {
   ],
   theme: {
     extend: {
+      
       backgroundImage: {
         'image-home': "url('/src/assets/imgs/delicious-pancakes-served-on-tray-w6dz4y02rei6b1wy.webp')", 
       },
