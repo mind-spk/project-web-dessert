@@ -13,7 +13,7 @@ const Menu = () => {
       <h2 className="text-[#F0E3A1] text-3xl font-judson font-bold m-5">
         Customer Favorites
       </h2>
-      <div className="flex flex-wrap gap-[55px] justify-center ">
+      <div className="flex flex-wrap gap-[55px] justify-center">
         <Card sx={{ maxWidth: 350 }}>
           <CardMedia
             sx={{ height: 350 }}

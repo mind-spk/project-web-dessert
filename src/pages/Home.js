@@ -20,7 +20,7 @@ function Home() {
     <div className="w-full h-screen flex relative bg-gradient-to-b from-[#1A3443] via-[#0A2431] via-100% ">
       
       <Navbar />
-      <img className="w-[1160px] h-screen " src={homeImg} />
+      <img className="w-[1160px] h-screen " src={homeImg} alt="dessert" />
       <div className=" flex gap-6  mr-[700px] absolute bottom-[20px] left-[150px]  text-white  text-[56px] ">
         <Link target="_blank " to="https://web.whatsapp.com/">
           <PiWhatsappLogoLight />
