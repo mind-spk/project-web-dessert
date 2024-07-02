@@ -6,10 +6,8 @@ import Menu from "./pages/Menu";
 import About from "./pages/About";
 
 const App = () => {
-
   return (
     <div>
-      
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
@@ -21,7 +19,6 @@ const App = () => {
       <About />
     </div>
   );
-
 };
 
 export default App;
