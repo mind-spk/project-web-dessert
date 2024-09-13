@@ -1,5 +1,6 @@
 import React from "react";
 import Card from "../components/Card";
+import Navbar from "../components/Navbar";
 
 const Menu = () => {
   const products = [
@@ -19,7 +20,9 @@ const Menu = () => {
   ];
 
   return (
+   
     <div className="w-full h-auto flex flex-col justify-center items-center pb-[100px]  bg-[#ffff]">
+       <Navbar/>
       <h2 className="text-[#F0E3A1] text-3xl font-judson font-bold m-5">
         Customer Favorites
       </h2>

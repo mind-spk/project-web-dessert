@@ -21,16 +21,16 @@ const Navbar = () => {
           isOpen ? "block" : "hidden"
         } md:block`}
       >
-        <Link to="/" className="py-2 px-4 md:px-8 hover:bg-gray-700">
+        <Link to="/" className="py-2 px-4 md:px-8 hover:bg-gray-700 transition-all duration-300  hover:rounded-xl hover:text-blue-700">
           Home
         </Link>
-        <Link to="/menu" className="py-2 px-4 md:px-8 hover:bg-gray-700">
+        <Link to="/menu" className="py-2 px-4 md:px-8 hover:bg-gray-700 transition-all duration-300  hover:rounded-xl hover:text-blue-700">
           Menu
         </Link>
-        <Link to="/about" className="py-2 px-4 md:px-8 hover:bg-gray-700">
+        <Link to="/about" className="py-2 px-4 md:px-8 hover:bg-gray-700 transition-all duration-300  hover:rounded-xl hover:text-blue-700">
           About me
         </Link>
-        <Link to="/login" className="py-2 px-4 md:px-8 hover:bg-gray-700">
+        <Link to="/login" className="py-2 px-4 md:px-8 hover:bg-gray-700 transition-all duration-300  hover:rounded-xl hover:text-blue-700">
           Login
         </Link>
       </div>
